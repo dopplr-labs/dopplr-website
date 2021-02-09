@@ -4,8 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && next export",
+    "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "firebase deploy --only hosting:dopplr-website"
   },
   "dependencies": {
     "autoprefixer": "^10.2.4",

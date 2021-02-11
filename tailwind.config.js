@@ -13,7 +13,7 @@ module.exports = {
 
   purge: {
     layers: ['components', 'utilities'],
-    content: ['./pages/**/*.tsx', './pages/**/*.ts'],
+    content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
   },
 
   theme: {
@@ -57,8 +57,8 @@ module.exports = {
         'spin-slow': {
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(360deg)' },
-        }
-       }
+        },
+      },
     },
   },
 

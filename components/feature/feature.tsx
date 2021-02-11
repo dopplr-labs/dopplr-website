@@ -39,47 +39,14 @@ export default function Feature() {
                     arcu pretium pharetra at. Lectus viverra dui tellus ornare
                     pharetra.
                   </p>
-                  <div className="mt-6">
-                    <a
-                      href="/"
-                      className="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700"
-                    >
-                      Get started
-                    </a>
-                  </div>
                 </div>
-              </div>
-              <div className="pt-6 mt-8 border-t border-gray-200">
-                <blockquote>
-                  <div>
-                    <p className="text-base text-gray-500">
-                      “Cras velit quis eros eget rhoncus lacus ultrices sed
-                      diam. Sit orci risus aenean curabitur donec aliquet. Mi
-                      venenatis in euismod ut.”
-                    </p>
-                  </div>
-                  <footer className="mt-3">
-                    <div className="flex items-center space-x-3">
-                      <div className="flex-shrink-0">
-                        <img
-                          className="w-6 h-6 rounded-full"
-                          src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=8&amp;w=1024&amp;h=1024&amp;q=80"
-                          alt=""
-                        />
-                      </div>
-                      <div className="text-base font-medium text-gray-700">
-                        Marcia Hill, Digital Marketing Manager
-                      </div>
-                    </div>
-                  </footer>
-                </blockquote>
               </div>
             </div>
             <div className="mt-12 sm:mt-16 lg:mt-0">
               <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
                   className="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+                  src="/dopplr-snapshot.png"
                   alt="Inbox user interface"
                 />
               </div>
@@ -121,14 +88,6 @@ export default function Feature() {
                     arcu pretium pharetra at. Lectus viverra dui tellus ornare
                     pharetra.
                   </p>
-                  <div className="mt-6">
-                    <a
-                      href="/"
-                      className="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md shadow-sm hover:bg-indigo-700"
-                    >
-                      Get started
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -136,7 +95,7 @@ export default function Feature() {
               <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
                   className="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                  src="/dopplr-snapshot.png"
                   alt="Customer profile user interface"
                 />
               </div>

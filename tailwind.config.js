@@ -50,6 +50,15 @@ module.exports = {
       spacing: {
         120: '30rem',
       },
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
+      keyframes: {
+        'spin-slow': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        }
+       }
     },
   },
 

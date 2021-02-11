@@ -6,10 +6,10 @@ export default function Feature() {
       <div className="relative pt-16 pb-32 overflow-hidden bg-white">
         <div className="relative">
           <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
-            <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
+            <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0">
               <div>
                 <div>
-                  <span className="flex items-center justify-center w-12 h-12 bg-indigo-600 rounded-md">
+                  <span className="flex items-center justify-center w-12 h-12 rounded-md bg-brand-primary">
                     <svg
                       className="w-6 h-6 text-white"
                       data-todo-x-description="Heroicon name: outline/inbox"
@@ -58,7 +58,7 @@ export default function Feature() {
             <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
               <div>
                 <div>
-                  <span className="flex items-center justify-center w-12 h-12 bg-indigo-600 rounded-md">
+                  <span className="flex items-center justify-center w-12 h-12 rounded-md bg-brand-primary">
                     <svg
                       className="w-6 h-6 text-white"
                       data-todo-x-description="Heroicon name: outline/sparkles"

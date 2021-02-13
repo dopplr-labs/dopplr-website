@@ -1,4 +1,4 @@
-import React from 'react'
+import { CheckCircle } from '../../icons'
 
 export default function Feature() {
   return (
@@ -12,32 +12,42 @@ export default function Feature() {
                   <span className="flex items-center justify-center w-12 h-12 rounded-md bg-brand-primary">
                     <svg
                       className="w-6 h-6 text-white"
-                      data-todo-x-description="Heroicon name: outline/inbox"
-                      xmlns="http://www.w3.org/2000/svg"
+                      data-todo-x-description="Heroicon name: outline/code"
                       fill="none"
-                      viewBox="0 0 24 24"
                       stroke="currentColor"
+                      viewBox="0 0 24 24"
                       aria-hidden="true"
                     >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
                         strokeWidth="2"
-                        d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
                       />
                     </svg>
                   </span>
                 </div>
                 <div className="mt-6">
                   <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                    Stay on top of customer support
+                    Powerful editor for writing queries
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    Semper curabitur ullamcorper posuere nunc sed. Ornare
-                    iaculis bibendum malesuada faucibus lacinia porttitor.
-                    Pulvinar laoreet sagittis viverra duis. In venenatis sem
-                    arcu pretium pharetra at. Lectus viverra dui tellus ornare
-                    pharetra.
+                    Dopplr provides powerful web-based code editor to write SQL
+                    queries on your databases.
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>Auto-complete and syntax highlighting</span>
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>Code Formatting and keyboard shortcuts</span>
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>
+                      Completely customizable using different themes and fonts
+                    </span>
                   </p>
                 </div>
               </div>

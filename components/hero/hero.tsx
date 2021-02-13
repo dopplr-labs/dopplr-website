@@ -1,6 +1,3 @@
-import React from 'react'
-// import Image from 'next/image'
-
 export default function Hero() {
   return (
     <>
@@ -86,13 +83,16 @@ export default function Hero() {
               >
                 <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="/">
+                    <a href="/" className="flex items-center space-x-2">
                       <span className="sr-only">Workflow</span>
                       <img
                         className="w-auto h-10 animate-spin-slow sm:h-10"
                         src="/logo192transparent.png"
                         alt=""
                       />
+                      <span className="text-xl font-bold text-brand-primary">
+                        Dopplr
+                      </span>
                     </a>
                     <div className="flex items-center md:hidden">
                       <span className="inline-flex rounded-md shadow">
@@ -122,10 +122,15 @@ export default function Hero() {
             <div className="px-4 mx-auto mt-16 max-w-7xl sm:mt-24 sm:px-6">
               <div className="text-center">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                  <span className="block text-brand-primary">Dopplr</span>
+                  <span className="block text-brand-primary">
+                    Data analytics and BI tool for your company
+                  </span>
                 </h1>
                 <p className="max-w-md mx-auto mt-3 text-base text-content-tertiary sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-                  Create beautiful dashboards from SQL queries
+                  Connect different kinds of data sources you use for your
+                  business, write queries to get granular details and plot
+                  charts and dashboards to understand your business metrics
+                  better.
                 </p>
               </div>
             </div>

@@ -13,7 +13,11 @@ module.exports = {
 
   purge: {
     layers: ['components', 'utilities'],
-    content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
+    content: [
+      './pages/**/*.{ts,tsx}',
+      './components/**/*.{ts,tsx}',
+      './icons/**/*.{ts,tsx}',
+    ],
   },
 
   theme: {

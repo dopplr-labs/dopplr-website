@@ -12,8 +12,7 @@ export default function CTA() {
                   <span className="block">Ready to dive in?</span>
                 </h2>
                 <p className="mt-4 text-lg leading-6 text-gray-50">
-                  Ac euismod vel sit maecenas id pellentesque eu sed
-                  consectetur. Malesuada adipiscing sagittis vel nulla nec.
+                  Try Dopplr today to see the difference.
                 </p>
                 <a
                   href="/"

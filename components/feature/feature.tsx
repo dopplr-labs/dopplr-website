@@ -1,4 +1,4 @@
-import { CheckCircle } from '../../icons'
+import { CheckCircle, Graph, Editor, Database } from '../../icons'
 
 export default function Feature() {
   return (
@@ -10,21 +10,7 @@ export default function Feature() {
               <div>
                 <div>
                   <span className="flex items-center justify-center w-12 h-12 rounded-md bg-brand-primary">
-                    <svg
-                      className="w-6 h-6 text-white"
-                      data-todo-x-description="Heroicon name: outline/code"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                      />
-                    </svg>
+                    <Editor />
                   </span>
                 </div>
                 <div className="mt-6">
@@ -56,8 +42,8 @@ export default function Feature() {
               <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
                   className="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="/dopplr-snapshot.png"
-                  alt="Inbox user interface"
+                  src="/dopplr-editor-snapshot.jpg"
+                  alt="Dopplr Editor Snapshot"
                 />
               </div>
             </div>
@@ -69,34 +55,24 @@ export default function Feature() {
               <div>
                 <div>
                   <span className="flex items-center justify-center w-12 h-12 rounded-md bg-brand-primary">
-                    <svg
-                      className="w-6 h-6 text-white"
-                      data-todo-x-description="Heroicon name: outline/sparkles"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                      aria-hidden="true"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
-                      />
-                    </svg>
+                    <Graph />
                   </span>
                 </div>
                 <div className="mt-6">
                   <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
-                    Better understand your customers
+                    Beautiful data visualization
                   </h2>
                   <p className="mt-4 text-lg text-gray-500">
-                    Semper curabitur ullamcorper posuere nunc sed. Ornare
-                    iaculis bibendum malesuada faucibus lacinia porttitor.
-                    Pulvinar laoreet sagittis viverra duis. In venenatis sem
-                    arcu pretium pharetra at. Lectus viverra dui tellus ornare
-                    pharetra.
+                    Dopplr comes with a huge set of highly customizable
+                    visualization tools for your data
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>A myriad of graphs to choose from</span>
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>Granular configuration for graph axes</span>
                   </p>
                 </div>
               </div>
@@ -105,8 +81,64 @@ export default function Feature() {
               <div className="pr-4 -ml-48 sm:pr-6 md:-ml-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <img
                   className="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="/dopplr-snapshot.png"
-                  alt="Customer profile user interface"
+                  src="/dopplr-graph-snapshot.jpg"
+                  alt="Dopplr Graph Snapshot"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="relative mt-24">
+          <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
+            <div className="max-w-xl px-4 mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0">
+              <div>
+                <div>
+                  <span className="flex items-center justify-center w-12 h-12 rounded-md bg-brand-primary">
+                    <Database />
+                  </span>
+                </div>
+                <div className="mt-6">
+                  <h2 className="text-3xl font-extrabold tracking-tight text-gray-900">
+                    Extensive database support
+                  </h2>
+                  <p className="mt-4 text-lg text-gray-500">
+                    Dopplr provides connectors for well known databases
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>Postgres</span>
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>MySQL</span>
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>
+                      Vertica
+                    </span>
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>
+                      Hive
+                    </span>
+                  </p>
+                  <p className="flex items-center mt-4 space-x-2 text-lg text-gray-500">
+                    <CheckCircle />
+                    <span>
+                      And many more...
+                    </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="mt-12 sm:mt-16 lg:mt-0">
+              <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:relative lg:h-full">
+                <img
+                  className="w-full shadow-xl rounded-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                  src="/dopplr-database-snapshot.jpg"
+                  alt="Dopplr Editor Snapshot"
                 />
               </div>
             </div>

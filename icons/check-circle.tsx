@@ -1,7 +1,7 @@
 export default function CheckCircle() {
   return (
     <svg
-      className="w-6 h-6"
+      className="flex-shrink-0 w-6 h-6"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"

@@ -1,4 +1,9 @@
 import Head from 'next/head'
+import Hero from '../components/hero'
+import Feature from '../components/feature'
+import CTA from '../components/cta'
+import FAQ from '../components/faq'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -6,12 +11,11 @@ export default function Home() {
       <Head>
         <title>Dopplr - Create beautiful dashboards from SQL queries</title>
       </Head>
-      <div className="flex flex-col items-center justify-center w-screen h-screen bg-gray-900">
-        <h1 className="mb-4 text-5xl font-bold text-white">Dopplr</h1>
-        <div className="text-base font-normal text-gray-400">
-          Create beautiful dashboards from SQL queries
-        </div>
-      </div>
+      <Hero />
+      <Feature />
+      <CTA />
+      <FAQ />
+      <Footer />
     </>
   )
 }
